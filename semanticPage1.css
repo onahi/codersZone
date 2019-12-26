@@ -16,8 +16,13 @@
     width: 100%;
     height: auto;
 }
-div[class="ui list"] a{
+#footer-content{
+    display: flex;
+    justify-content: space-evenly
+}
+div[class="ui list"] a[class="item"]{
     color: white;
+    font-size: 1.2em;
 }
 
 @media screen and (max-width: 800px ) {
